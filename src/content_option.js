@@ -1,157 +1,113 @@
-const logotext = "JOHN";
+const logotext = "RAHUL R NAYAK";
+
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Rahul R Nayak | Data Scientist & Big Data Analytics",
+    description:
+        "Rahul R Nayak – Data Science Intern and AI/ML Engineer with hands-on experience in MLOps, Deep Learning, NLP, and large-scale ML systems.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Rahul R Nayak",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I work with data at scale",
+        second: "I build end-to-end ML & MLOps systems",
+        third: "I deploy AI solutions to production",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description:
+        "Data Science and AI/ML engineer with strong experience in machine learning, deep learning, NLP, MLOps, and cloud-native deployment.",
+    your_img_url: "https://avatars.githubusercontent.com/rahul-nayak01",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About me",
+    aboutme:
+        "I am a Data Science and AI/ML engineer currently pursuing M.E in Big Data Analytics. I have hands-on experience building end-to-end machine learning, deep learning, and MLOps pipelines, including model training, experiment tracking, CI/CD automation, and cloud deployment. I enjoy solving real-world problems using data-driven and scalable AI systems.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+
+const worktimeline = [
+    {
+        jobtitle: "Data Science Intern",
+        where: "Sabudh Foundation",
+        date: "Jan 2025 – Jun 2025",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Data Analyst Intern",
+        where: "Trainity",
+        date: "Nov 2023 – Jan 2024",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    { name: "Python", value: 90 },
+    { name: "SQL", value: 85 },
+    { name: "Machine Learning", value: 85 },
+    { name: "Deep Learning", value: 80 },
+    { name: "NLP", value: 80 },
+    { name: "MLOps", value: 85 },
+    { name: "Data Analysis", value: 90 },
+    { name: "Cloud & DevOps", value: 80 },
+];
+
+const services = [
+    {
+        title: "Data Science & Analytics",
+        description:
+            "Data analysis, feature engineering, visualization, and insight generation using Python, SQL, and industry-standard tools.",
     },
     {
-        name: "Djano",
-        value: 85,
+        title: "Machine Learning & Deep Learning",
+        description:
+            "Design and development of ML and DL models including CNNs, LSTMs, Autoencoders, and NLP pipelines.",
     },
     {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        title: "MLOps & Cloud Deployment",
+        description:
+            "End-to-end MLOps pipelines with DVC, MLflow, CI/CD automation, Docker, and deployment on AWS infrastructure.",
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+const dataportfolio = [
+    {
+        img: "https://picsum.photos/400/300",
+        description:
+            "End-to-End MLOps Pipeline for IMDB Movie Sentiment Analysis using MLflow, DVC, Docker, GitHub Actions, and AWS EKS.",
+        link: "https://github.com/rahul-nayak01",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        img: "https://picsum.photos/400/301",
+        description:
+            "Deep Learning Pipeline for Chest Cancer Detection using CNNs with experiment tracking and CI/CD deployment on AWS.",
+        link: "https://github.com/rahul-nayak01",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/302",
+        description:
+            "Agentic LLM-Based Conversational Medical Chatbot with RAG using LangChain, Pinecone, Flask, and AWS.",
+        link: "https://github.com/rahul-nayak01",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://picsum.photos/400/303",
+        description:
+            "ECG Continuous Time-Series Anomaly Detection using 1D CNNs and Autoencoders with FastAPI deployment.",
+        link: "https://github.com/rahul-nayak01",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_EMAIL: "nayakrahul0852@gmail.com",
+    YOUR_FONE: "+91 90199 72950",
+    description:
+        "Open to opportunities in Data Science, Machine Learning, MLOps, and Big Data Analytics. Feel free to reach out.",
+    YOUR_SERVICE_ID: "your_emailjs_service_id",
+    YOUR_TEMPLATE_ID: "your_emailjs_template_id",
+    YOUR_USER_ID: "your_emailjs_user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/rahul-nayak01",
+    linkedin: "https://www.linkedin.com/in/rahulnayak0852/",
 };
+
 export {
     meta,
     dataabout,
